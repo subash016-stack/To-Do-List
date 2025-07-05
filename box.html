@@ -1,0 +1,16 @@
+
+<h1 id="h1">Name</h1>
+<button id="one" onclick="change(event)">John</button>
+<button id="two" onclick="change(event)">Praveen</button>
+<button id="three" onclick="change(event)">Karthi</button>
+<script>
+
+    var box1=document.getElementById("one")
+    var box2=document.getElementById("two")
+    var box3=document.getElementById("three")
+    var h = document.getElementById("h1")
+    function change(event)
+    {
+       h.textContent=event.target.textContent
+    }
+</script>
